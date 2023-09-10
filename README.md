@@ -1,4 +1,4 @@
-# Example Python Projects
+# Example Python Project
 
 Notes on how to setup modules and packages in Python.
 
