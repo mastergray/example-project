@@ -13,13 +13,16 @@ class ClassA:
     def sayHello(self):
         print(f"Hi! My Name Is {self.name}")
 
+    
     # Class Method :: VOID -> VOID
     # NOTE: A class method can access a shared value between instances - it is called from an instance
+    @classmethod
     def getCount(cls):
         return cls.instanceCount
 
     # Static Method :: STRING -> classA
     # NOTE:A static method can be called from the class directly
+    @staticmethod
     def init(name):
         return ClassA(name)
     
